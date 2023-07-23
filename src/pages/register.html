@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Detikfinance</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-[#F4FBFF]">
+    <header class="px-4 py-4 md:top-0 w-full z-10 sticky md:px-24 md:py-4 bg-primary ">
+        <nav class="flex justify-between items-center">
+            <a href="../index.html"><img src="../assets/images/detikfinance.svg" alt="detikfinance Business Plan Competition 2023"></a>
+            <div class="hidden md:flex items-center">
+                <ul class="flex text-white font-semibold space-x-8">
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#mechanism-section">Mechanism</a></li>
+                    <li><a href="#updates-section">Latest Update</a></li>
+                </ul>
+                <a href="../src/pages/register.html" class="bg-white ms-8 px-8 py-2.5 rounded-full text-primary font-semibold">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="font-montserrat">
+        <section class="w-auto md:my-16">
+            <div class="flex justify-center">
+                <img src="../assets/images/register-header.png" alt="" class="absolute md:-top-5 -z-10 w-full h-[24rem] object-cover md:h-auto">
+                <div class=" mt-12 w-full text-center flex flex-col items-center">
+                    <p class="text-5xl font-extrabold text-white">Registrasi</p>
+                    <div class="mt-10  md:w-1/2 bg-white container px-5 py-8 rounded-2xl">
+                        <form class=" flex flex-col">
+                            <input type="text" name="nama" id="" placeholder="Nama Perusahaan*" class="bg-[#f8f8f8] p-4 placeholder:text-sm"><br>
+                            <input type="email" name="email" id="" placeholder="Email*" class="bg-[#f8f8f8] p-4 placeholder:text-sm"><br>
+                            <input type="tel" name="telp" id="" placeholder="Nomor Telepon*" class="bg-[#f8f8f8] p-4 placeholder:text-sm">
+                            <div class="flex">
+                                <p class="opacity-50 text-xs font-medium pt-2">Isi hanya angka</p>
+                            </div><br>
+
+                            <textarea id="" rows="4" placeholder="Tentang Perusahaan (Max. 200 character)*" class="bg-[#f8f8f8] p-4 placeholder:text-sm"></textarea><br>
+                            
+                            <div class="relative flex flex-col items-center md:flex-row">
+                                <div class="absolute bg-primary rounded-full w-8 h-8 top-20 start-30 md:start-20">
+                                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                </div>
+                                <input type="file" name="logo" id=""
+                                class=" text-[#f8f8f8] w-full md:w-48 h-48 flex flex-col bg-[#f8f8f8] rounded-lg file:w-full file:h-40 file:cursor-pointer cursor-pointer file:hidden">
+                                <ol class="pt-4 md:ms-8 text-start list-decimal self-start text-xs md:text-sm ps-4 backdrop:md:ps-8 font-medium">
+                                    <li>Format file: .png, .jpg, .jpeg</li>
+                                    <li>Maksimal ukuran file 200KB</li>
+                                    <li>Hindari penggunaan logo berwarna putih</li>
+                                    <li>Minimal lebar 300px</li>
+                                </ol>
+                            </div><br>
+                            <div class="bg-form flex justify-between items-center rounded-xl overflow-hidden">
+                                <p class="text-xs md:text-sm text-start py-4 ps-4 opacity-50">Profil Perusahaan atau Deck (opsional)</p>
+                                <button class="bg-primary py-4 px-10 text-xs md:text-sm font-bold text-white rounded-xl">Upload file</button>
+                            </div>
+                            <div class="flex">
+                                <p class="opacity-50 text-xs font-medium pt-2">Format file .pdf , maksimal size 20mb</p>
+                            </div><br>
+                            <input type="url" name="website" id="" placeholder="Link website*" class="bg-[#f8f8f8] p-4 placeholder:text-sm"><br>
+                            <div class="flex">
+                                <input type="checkbox" name="" id="">
+                                <p class="px-4 text-start text-xs md:text-sm">Dengan menekan tombol "Register", Saya menyetujui syarat dan ketentuan yang berlaku</p>
+                            </div><br>
+                        </form>
+                        <button class="bg-primary mt-8 w-1/3 py-4 rounded-lg font-bold text-sm text-white hover:bg-secondary">Register</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="px-12 py-8 bg-primary text-white">
+        <img src="../assets/images/detikfinance.svg" alt="" class="w-64">
+        <div class="mt-8 flex flex-col md:flex-row justify-between pb-5">
+            <p class="font-semibold">Detikfinance memberikan ruang kepada para startup di Indonesia untuk menunjukkan, serta<br>mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor</p>
+            <div class="flex flex-row py-4 space-x-8">
+                <img src="../assets/icons/twitter-white.svg" alt="" class="w-5">
+                <img src="../assets/icons/instagram-white.svg" alt="" class="w-5">
+                <img src="../assets/icons/facebook-white.svg" alt="" class="w-5">
+            </div>
+        </div>
+        <hr>
+        <p class="pt-5 text-xs">© 2023 Detikcom. All rights reserved</p>
+    </footer>
+</body>
+</html>

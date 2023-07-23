@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+}
+
+.slider-track {
+    display: flex;
+    width: calc(288px * 16);
+    animation: scroll 12s linear infinite;
+}
+
+.image-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 288px;
+    height: 144px;
+    margin: 0 8px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.image-card img {
+    object-fit: contiain;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-288px * 8));
+    }
+}

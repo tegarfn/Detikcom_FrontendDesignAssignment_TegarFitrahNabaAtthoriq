@@ -1,0 +1,2 @@
+# Detikcom_FrontendDesignAssignment_TegarFitrahNabaAtthoriq
+Assignment for Digital Media Internship Program by Detikcom
